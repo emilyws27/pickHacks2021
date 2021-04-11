@@ -1,13 +1,8 @@
-# Memories
+# PickHacks Project Submission
 
-![Memories](https://i.ibb.co/Z8Y0CJv/Screenshot-2020-10-30-at-11-10-04.png)
+This repo was submitted for Missouri S&T University's PickHacks Hackathon (April 2021).
 
-## Introduction
-This is a code repository for the corresponding video tutorial - https://youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu.
+Our project is a web-based application aimed at bridging the gap between the gaming and music communities. The app serves as a platform for gamers to share and link music playlists to specific video games. Users can create accounts, upload their own plalists, and view and access other users' playlists. Users are also able to search for playlists by videogame tag.
 
-Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called "Memories" and it is a simple social media app that allows users to post interesting events that happened in their lives.
+Run the program "npm start" inside both the client and server directories. 
 
-By the end of this video, you will have a strong understanding of how the MERN Stack works.
-
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the app
