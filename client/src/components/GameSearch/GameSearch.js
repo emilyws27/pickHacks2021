@@ -45,10 +45,10 @@ const GameSearch = ( ) => {
       id="combo-box-demo"
       options={top100Films}
       getOptionLabel={(option) => option.title}
-      style={{ width: 500},{alignItems: 'center'}}
+      style={{ width: 500},{alignItems: 'center'}, {margin: 20}}
       
       
-      renderInput={(params) => <TextField {...params} label="Combo box" variant="outlined" />}
+      renderInput={(params) => <TextField {...params} label="Search for a Game..." variant="outlined" />}
     />
   );
 }
