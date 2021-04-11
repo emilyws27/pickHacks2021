@@ -51,15 +51,15 @@ const Post = ({ post, setCurrentId }) => {
       </div>
       <Typography className={classes.title} gutterBottom variant="h5" component="h2">{post.title}</Typography>
       <CardContent>
-        <a href={post.message}><PlayCircleFilledOutlinedIcon fontSize="large" /></a>
+        <a href={post.message}><PlayCircleFilledOutlinedIcon className={classes.playbutton} fontSize="large" /></a>
       </CardContent>
       <CardActions className={classes.cardActions}>
-        <Button size="small" color="primary" disabled={!user?.result} onClick={() => dispatch(likePost(post._id))}>
+        <Button size="small" color="black" disabled={!user?.result} onClick={() => dispatch(likePost(post._id))}>
           <Likes />
         </Button>
         {(user?.result?.googleId === post?.creator || user?.result?._id === post?.creator) && (
-        <Button size="small" color="secondary" onClick={() => dispatch(deletePost(post._id))}>
-          <DeleteIcon fontSize="small" /> Delete
+        <Button size="small" onClick={() => dispatch(deletePost(post._id))}>
+          <DeleteIcon style={{color: "#FF0000"}}fontSize="small" /> Delete
         </Button>
         )}
       </CardActions>
