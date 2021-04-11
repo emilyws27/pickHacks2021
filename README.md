@@ -1,4 +1,4 @@
-# Play^2List - A PickHacks Project Submission
+# PlaySquared - A PickHacks Project Submission
 
 This repo was submitted for Missouri S&T University's PickHacks Hackathon (10th/11th April 2021).
 
@@ -6,5 +6,5 @@ Our project is a web-based application aimed at helping to build the gaming comm
 
 To run the program locally, run the command "npm i" followed by "npm start" inside both the client and server directories of the project file. 
 
-This project is done by - Amitesh,Emily,Aashi and Liam 
+This project is done by - Amitesh, Emily, Aashi and Liam 
 
